@@ -1,0 +1,87 @@
+#logo > a {
+  float: left; display: block; margin: 20px 15px 20px 0; width: 60px; height: 60px;
+}
+#logo > a > img {
+  width: 100%; height: 100%;
+}
+#logo > p {
+  float: left;
+  margin-right:100px;
+}
+#logo > p > span.name {
+  display: block; color: #0080ff; font-size: 18px; font-weight: bold;
+}
+#logo > p > span.name.single {
+  line-height: 76px;
+}
+#logo > p > span.name.multiple {
+  margin-top: 20px; margin-left: 3px; line-height: 15px; font-size: 20px;
+}
+#logo > p > span.subname {
+  display: block; line-height: 25px; color: #4c4c4c; font-size: 25px; padding-right: 50px;
+}
+
+#menu > li {
+  float: left; padding: 30px 100px 20px 5px;
+}
+#menu > li > a {
+  color: #4c4c4c; font-size: 18px; font-weight: bold;
+}
+#menu > li > a:hover,
+#menu > li.active > a {
+  color: #0080ff;
+}
+
+#account > li {
+  float: right; padding: 20px 0 20px 5px;
+}
+#account > li > a.button {
+  display: block; padding: 0 15px; height: 40px; line-height: 40px; border-radius: 6px;
+  font-size: 15px;
+}
+#account > li > a.button.white {
+  border: 1px solid #d6d6d6; color: #737373; background-color: #fff;
+}
+#account > li > a.button.blue {
+  color: #fff; background-color: #0080ff; 
+}
+
+#submenu {
+  clear:both; border-bottom: 1px solid #d6d6d6; background-color: #f2f2f2;
+}
+#submenu > div.wrap > div.divider {
+  display: inline-block; width: 1px; height: 100px; background-color: #e3e3e3; margin-left: 10px;
+}
+#submenu > div.wrap > div.group {
+  display: inline-block; vertical-align: top; box-sizing: border-box; text-align: left; width:130px;
+}
+#submenu > div.wrap > div.group > h5 {
+  line-height: 25px; color: #292929; font-weight: bold;
+}
+#submenu > div.wrap > div.group > ul > li > a {
+  display: block; line-height: 25px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+}
+#submenu > div.wrap > div.group > ul > li > a.more {
+  color: #c62917; font-weight: bold; cursor: pointer;
+}
+#submenu > div.wrap > div.group > ul > li > a.search {
+  color: #c62917; font-weight: bold;
+}
+#submenu > div.wrap > ul > li {
+  display: inline-block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+}
+#submenu > div.wrap ul > li > a {
+  color: #4c4c4c;
+}
+#submenu > div.wrap ul > li > a.active {
+  color: #c62917; font-weight: bold;
+}
+#submenu > div.wrap ul > li > a.search {
+  color: #a6a6a6;
+}
+#submenu > div.wrap ul > li > a:hover {
+  color: #c62917;
+}
+#submenu > div.wrap ul > li > a.new:after {
+  content: ''; display: inline-block; margin-left: 5px; margin-bottom: 2px; width: 4px; height: 4px; background: transparent url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+Cjxzdmcgd2lkdGg9IjRweCIgaGVpZ2h0PSI0cHgiIHZpZXdCb3g9IjAgMCA0IDQiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+CiAgICA8IS0tIEdlbmVyYXRvcjogU2tldGNoIDQxICgzNTMyNikgLSBodHRwOi8vd3d3LmJvaGVtaWFuY29kaW5nLmNvbS9za2V0Y2ggLS0+CiAgICA8dGl0bGU+bmV3PC90aXRsZT4KICAgIDxkZXNjPkNyZWF0ZWQgd2l0aCBTa2V0Y2guPC9kZXNjPgogICAgPGRlZnM+PC9kZWZzPgogICAgPGcgaWQ9InBjIiBzdHJva2U9Im5vbmUiIHN0cm9rZS13aWR0aD0iMSIgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj4KICAgICAgICA8ZyBpZD0iaG9tZSIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTM2Ni4wMDAwMDAsIC0xMjUuMDAwMDAwKSIgZmlsbD0iIzBDQTVBRiI+CiAgICAgICAgICAgIDxnIGlkPSJzdWJtZW51IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgwLjAwMDAwMCwgODEuMDAwMDAwKSI+CiAgICAgICAgICAgICAgICA8ZyBpZD0iR3JvdXAiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDI4OC4wMDAwMDAsIDAuMDAwMDAwKSI+CiAgICAgICAgICAgICAgICAgICAgPGNpcmNsZSBpZD0ibmV3IiBjeD0iODAiIGN5PSI0NiIgcj0iMiI+PC9jaXJjbGU+CiAgICAgICAgICAgICAgICA8L2c+CiAgICAgICAgICAgIDwvZz4KICAgICAgICA8L2c+CiAgICA8L2c+Cjwvc3ZnPg==') no-repeat center center; background-size: 4px 4px;
+}

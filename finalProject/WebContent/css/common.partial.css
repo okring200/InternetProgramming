@@ -1,0 +1,71 @@
+body {
+	background-color: #fff;
+}
+#container {
+	width: 1000px; margin: 0 auto;
+}
+
+#container > div.main {
+	width: 400px; 
+}
+
+#container > div.main > div.board > table {
+	width:100%;
+	margin-bottom: 10px;
+}
+
+#container > div.main > div.board > table > tbody > tr, td{
+	border-bottom: 1px solid #ddd; text-align: left;
+}
+
+#container > div.rightside {
+	
+}
+
+#container > div.rightside > div.board {
+	border: 1px solid #e3e3e3; overflow:hidden; background-color: #fff; margin-top:30px;
+}
+
+#miniBoard {
+	width:100%;
+	margin-top: 10px;
+}
+
+
+
+#container > div.main > img{
+	width: 1000px;
+    height: 300px;
+    margin-bottom: 20px;
+}
+
+
+#container > div.main div.board {
+	width: 400px; border: 1px solid #e3e3e3; overflow:hidden; background-color: #fff;  float:left; margin-right:33px;
+}
+
+#container div.board h3 {
+	line-height: 20px; color: #0080ff; font-size: 20px; font-weight: bold;
+}
+
+
+
+.off-screen {
+	display:none;
+}
+
+#tnav a {
+	display: inline-block;
+	padding: 3px 5px;
+	margin-right: 10px;
+	font-family:Tahoma;
+	background: #ccc;
+	color: #000;
+	text-decoration: none;
+}
+
+
+
+
+
+

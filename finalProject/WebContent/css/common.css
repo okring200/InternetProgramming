@@ -1,0 +1,14 @@
+* { margin:0; padding:0; }
+
+div,nav,aside,article,figure {
+	display: block;
+}
+
+header{
+	width: 1000px;
+	margin: 0 auto;
+}
+
+ul, li{
+	list-style: none;
+}
